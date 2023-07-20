@@ -4,7 +4,7 @@ sudo apt update -y
 sudo apt install openjdk-11-jre -y
 
 # Add Jenkins repository key
-curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo tee \
+curl -fsSL https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key | sudo tee \
   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
 
 # Add Jenkins repository to sources list
